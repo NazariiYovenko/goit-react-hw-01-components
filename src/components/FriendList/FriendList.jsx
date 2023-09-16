@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import FriendListItem from 'components/FriendListItem/FriendListItem';
-import { arrayOf } from 'prop-types';
 export default function FriendList({ friends }) {
   return (
     <ul className="friend-list">

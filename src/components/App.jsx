@@ -17,7 +17,7 @@ export const App = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        color: '#010102',
+        color: '#010101',
       }}
     >
       <Profile
