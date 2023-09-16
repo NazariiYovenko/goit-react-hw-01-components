@@ -1,0 +1,40 @@
+.item {
+  display: flex;
+  align-items: center;
+  min-width: 430px;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(132, 120, 211, 0.782);
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.5);
+}
+
+.status {
+  display: block;
+  margin: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+}
+
+.avatar {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  background-color: #ededed;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 800;
+  color: #ededed;
+  margin: 0;
+  padding: 0;
+}
